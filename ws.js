@@ -114,3 +114,82 @@ if(age<18){
 }else{
   console.log("Vieux")
 }
+
+
+var month = 5
+
+switch(month){
+  case 1 : console.log("Janvier")
+    break
+
+  case 5 : console.log("Mai")
+    break
+  default : console.log("Error")
+}
+
+
+function Somme(safa,habib){
+  return safa + habib
+}
+
+
+console.log(Somme(3,8))
+console.log(Somme(93, 81))
+
+
+function checkNumber(a){
+  if(a >= 0){
+    return "Positif"
+  }else{
+    return "Negatif"
+  }
+}
+
+console.log(checkNumber(6))
+console.log(checkNumber(-6))
+console.log(checkNumber(0))
+
+
+for(var i = 0; i<2; i ++){
+  console.log(i)
+}
+
+var t = [2,7,9,2]
+
+var sum = 0
+
+for(var i = 0; i < t.length; i++){
+  sum = sum + t[i]
+}
+
+console.log(sum)
+
+var t = [2,7,9,2]
+
+var sum = 0
+
+for(var saif in t){
+  sum += t[saif]
+}
+
+console.log(sum)
+
+var t = [2, 7, 9, 2]
+
+for(var habib of t){
+  console.log(habib)
+}
+
+var i = 6
+
+// while(i < 4){
+//     console.log("Safa")
+//     i++
+// }
+
+do{
+    console.log("Safa")
+    i++
+}while(i<4)
+
+  
